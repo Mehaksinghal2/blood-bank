@@ -59,4 +59,52 @@ Ensure MongoDB is running locally or configure your MONGODB_URI appropriately.
   cd ..
   npm start
   ```
-  * Server runs at http://localhost:8000
+  * Server runs at http://localhost:8080
+ 
+* Run the Frontend
+  ```bash
+  cd client
+  npm start
+  ```
+  * Frontend runs at http://localhost:3000
+
+**Project Structure**
+**Backend**
+* Routes: /donors, /requests, /auth, etc.
+* Controllers: Contains logic for creating, updating, deleting donor/request records.
+* Database Models: Mongoose schemas for donors and requests.
+* Middleware: Authentication, input validation, and error handling.
+
+**Frontend**
+* Components:
+  * RegisterForm: For new donor/recipient sign-up
+  * SearchBlood: For users to search available blood.
+  * Dashboard: For viewing and managing blood records.
+* Routing: React Router for navigation between components.
+* State Management: Hooks used for managing UI and API responses.
+* Validation: Form validation for critical fields like name, blood type, and contact info.
+
+**Running Tests**
+* Use tools like Postman or Thunder Client to test API endpoints.
+* For frontend, use React Testing Library or Jest (optional setup).
+
+**Features** 
+* User Registration: Donors and recipients can register with their details.
+* Blood Search: Find donors based on city and blood group.
+* CRUD Operations: Add, update, and delete donor/request entries.
+* Responsive Design: Works on all screen sizes.
+* Authentication (planned): For secure donor/recipient management.
+* Real-Time Updates: Immediate reflection of added or updated records.
+* Error Feedback: Friendly error messages for users and developer logs in console.
+
+**Future Enhancements**
+* Authentication & Authorization: Secure login and dashboard access.
+* Email & SMS Notifications: Notify users when a matching donor/request is found.
+* Geo-Search: Filter donors based on location proximity.
+* Admin Panel: Manage system users and records.
+* Mobile App: Native app for Android and iOS for wider access.
+* Donation History Tracking: Let donors and recipients view past activity.
+
+
+
+
