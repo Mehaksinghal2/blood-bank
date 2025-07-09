@@ -105,6 +105,13 @@ Ensure MongoDB is running locally or configure your MONGODB_URI appropriately.
 * Mobile App: Native app for Android and iOS for wider access.
 * Donation History Tracking: Let donors and recipients view past activity.
 
+**Screen Shots**
+<img width="1440" height="813" alt="Image" src="https://github.com/user-attachments/assets/9539e7e0-9221-425e-b53a-6d79335d7421" />
 
+<img width="1440" height="813" alt="Image" src="https://github.com/user-attachments/assets/89ee08d8-aced-42af-9684-633b21c2f556" />
 
+<img width="1440" height="813" alt="Image" src="https://github.com/user-attachments/assets/dded5bdc-bb4e-4f35-a383-c8b998a0223c" />
 
+<img width="1440" height="813" alt="Image" src="https://github.com/user-attachments/assets/fbc66070-bac4-4e49-850e-19634bfc5b17" />
+
+<img width="1440" height="813" alt="Image" src="https://github.com/user-attachments/assets/c74d451a-dcf7-4151-b6a1-73bf4d5e3b67" />
